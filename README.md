@@ -1,7 +1,10 @@
 # Regressao-Logistica-Classificador
+### Descrição
+Treinando um modelo de classificação utilizando técnica de regressão logistica a e aplicando em uma base de dados para classificar registros e compartilhar os resultados(Censo de 1994 - EUA).
 
-#### Aplicando regressão logística para treinar um classificador e aplicando em uma base de dados.(Base de Dados - Censo de 1994 - EUA).
-#### Objetivo: Prever se um americano possui renda anual <= ou > 50 mil dólares por ano.
+O objetivo é prever se uma pessoa possui renda anual <= ou > 50 mil dólares por ano.
+
+**Percentual Mínimo** -> Base Line Classifier = 0.7559 (ZeroR).
 
 ### Resultados - Validação Cruzada - StratifiedKFold
 **Precisão** | **Pré-Processamentos** | **Desvio Padrão**
@@ -23,29 +26,28 @@ A Matriz na tabela acima é formada pela média de todas as matrizes geradas ao 
 
 A diagonal principal (em negrito) destaca os registros classificados corretamente.
 
-
 ### Bibliotecas usadas:
 - Pandas
 - Sklearn
 - Numpy
 
-### Técnicas de Pré-Processamento e Tratamento dos dados usada:
-- LabelEnconder;
-- OneHotEncoder;
-- StandardScaler;
-
 ### Ferramentas Usadas:
 - Anaconda
 - Spyder
-
-### Linguagem:
-- Python
 
 ### Fonte da Base de Dados: 
 - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 ### Como usar:
-- Basta fazer o download do código fonte e da base de dados. Para executar o código por partes(células) e testar diferentes possibilidades de pré-processamento, recomendo uma IDE como Spyder ou o Jupyter. (Támbem é necessário ter o Python instalado no seu computador)
+1. Faça o download do classificador já treinado dispoível neste mesmo repositório [aqui](https://github.com/juliomrodrigues/Regressao-Logistica-Classificador/blob/main/classificador_regressao_logistica.sav).
+2. Abra o arquivo.py que deseja usar o classificador ou então crie um novo.
+3. Execute o código abaixo para fazer a importação:
+~~~~python
+import pickle
+classificador = pickle.load(open('classificador_regressao_logistica.sav', 'rb'))
+
+~~~~~
+4. Pronto, agora o classficador está pronto para ser usado.
 
 #### Outros Classificadores:
 - [Naive Bayes](https://github.com/juliomrodrigues/Classificador-Naive-Bayes)
