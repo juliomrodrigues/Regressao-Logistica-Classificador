@@ -4,7 +4,7 @@ Treinando um modelo de classificação utilizando técnica de regressão logisti
 
 O objetivo é prever se uma pessoa possui renda anual <= ou > 50 mil dólares por ano.
 
-**Percentual Mínimo** -> Base Line Classifier = 0.7559 (ZeroR).
+**Percentual mínimo a ser batido** -> Base Line Classifier = 0.7559 (ZeroR).
 
 ### Resultados - Validação Cruzada - StratifiedKFold
 **Precisão** | **Pré-Processamentos** | **Desvio Padrão**
