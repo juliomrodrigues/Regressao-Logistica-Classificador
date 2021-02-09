@@ -44,9 +44,9 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 ~~~~python
 import pickle
 classificador = pickle.load(open('classificador_regressao_logistica.sav', 'rb'))
-
 ~~~~~
 4. Pronto, agora o classficador está pronto para ser usado.
+5. Se desejar treinar um novo classificador, faça o download do arquivo de treinamento e execute novas combinações de pré-processamentos e parâmetros [aqui](https://github.com/juliomrodrigues/Regressao-Logistica-Classificador/blob/main/treinamento_regressao_logistica.py).
 
 #### Outros Classificadores:
 - [Naive Bayes](https://github.com/juliomrodrigues/Classificador-Naive-Bayes)
