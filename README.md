@@ -15,7 +15,6 @@ O objetivo é prever se uma pessoa possui renda anual <= ou > 50 mil dólares po
 **0.8517** | **OneHotEncoder + StandardScaler** | **0.0070**
 0.8517 | LabelEnconder + OneHotEncoder + StandardScaler | 0.0070 
 
-### Matriz de Confusão(Média de todas as 10 execuções):
 ### Matriz de Confusão (Média):
 **x** | 0 | 1
 | :------: | :------: | :------: |
